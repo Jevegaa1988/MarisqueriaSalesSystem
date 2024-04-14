@@ -9,7 +9,7 @@ import java.text.SimpleDateFormat;
 public class SalesSystem {
 
     private static Scanner scanner = new Scanner(System.in);
-    private static final String CSV_PATH = "C:\\Users\\jesus\\eclipse-workspace\\MarisqueriaSalesSystem\\ventas_marisqueria.csv";
+    private static final String CSV_PATH = System.getenv("CSV_PATH");
 
     public static void main(String[] args) {
         System.out.println("Bienvenido al sistema de ventas de Marisquería Cost-Mar.");

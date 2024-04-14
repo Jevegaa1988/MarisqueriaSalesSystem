@@ -1,0 +1,68 @@
+Manual de Instalación y Ejecución para MarisqueriaSalesSystem
+
+1. Descarga e Instalación de Java 11
+Para que la aplicación funcione correctamente, es necesario tener instalado Java 11 en tu computadora.
+
+Visita el sitio web de Oracle:
+
+Abre tu navegador y ve a la página de descargas de Java SE 11:
+https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html
+
+Selecciona la versión adecuada:
+
+Descarga el instalador de Java 11 adecuado para tu sistema operativo (Windows, macOS, Linux).
+Asegúrate de elegir la versión que corresponda a la arquitectura de tu sistema (32 o 64 bits).
+
+Instala Java:
+
+Una vez descargado el archivo, ejecuta el instalador.
+Sigue las instrucciones en pantalla para completar la instalación.
+
+2. Configuración de la Variable de Entorno
+
+Es necesario configurar una variable de entorno para que la aplicación sepa dónde encontrar el archivo de datos necesario.
+
+Abrir el Panel de Control:
+
+En Windows, busca "Panel de Control" en el menú de inicio y ábrelo.
+Sistema y Seguridad:
+
+Haz clic en "Sistema" y luego en "Configuración avanzada del sistema".
+Variables de Entorno:
+
+En la ventana de Propiedades del Sistema, haz clic en el botón "Variables de Entorno".
+Crear la Variable de Entorno:
+
+Bajo "Variables del sistema" o "Variables de usuario", haz clic en "Nueva...".
+Establece el nombre de la variable como CSV_FILE_PATH.
+Establece el valor de la variable como la ruta donde se encuentra el archivo ventas_marisqueria.csv, por ejemplo:
+
+C:\Users\jesus\eclipse-workspace\MarisqueriaSalesSystem\ventas_marisqueria.csv
+
+Haz clic en "Aceptar" para guardar los cambios.
+
+3. Configuración del Archivo .bat
+
+El archivo .bat se utiliza para ejecutar la aplicación de forma sencilla con doble clic.
+
+Crear el Archivo .bat:
+
+Abre el Bloc de notas o cualquier editor de texto.
+
+Copia y pega el siguiente contenido:
+
+@echo off
+set CSV_FILE_PATH=C:\Users\jesus\eclipse-workspace\MarisqueriaSalesSystem\ventas_marisqueria.csv
+java -jar C:\Users\jesus\eclipse-workspace\MarisqueriaSalesSystem\target\MarisqueriaSalesSystem-0.0.1-SNAPSHOT.jar
+pause
+
+Modifica las rutas según corresponda a la ubicación de tu archivo .csv y .jar.
+
+Guardar el Archivo:
+
+Guarda el archivo con la extensión .bat, por ejemplo, EjecutarMarisqueria.bat.
+Asegúrate de guardar el archivo en un lugar accesible, como el escritorio o la misma carpeta donde se encuentra el .jar.
+Tambien de agrega el archivo .bat en el primer Release solo para editar las rutas de los archivos .csv y .jar
+
+4. Ejecución de la Aplicación
+Para ejecutar la aplicación, simplemente haz doble clic en el archivo EjecutarMarisqueria.bat. Esto abrirá una ventana de comando que ejecutará la aplicación.
