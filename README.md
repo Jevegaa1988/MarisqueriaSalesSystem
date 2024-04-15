@@ -74,39 +74,7 @@ Para ejecutar las pruebas unitarias del proyecto manualmente, utiliza Maven desd
 
 •	mvn test
 
-Instalación
 
-¿Cómo instalar el ambiente de desarrollo?
-
-•	Para instalar y configurar el ambiente de desarrollo para Marisqueria Sales System, sigue estos pasos:
-
-Descargar e instalar Java:
-
-•	Asegúrate de tener Java 11 instalado en tu sistema. Puedes descargarlo desde el sitio oficial de Oracle.
-
-•	Sigue las instrucciones de instalación específicas para tu sistema operativo.
-
-•	Establecer la variable de entorno JAVA_HOME:
-
-•	Configura la variable de entorno JAVA_HOME para que apunte al directorio donde se instaló Java.
-•	En Windows, esto se puede hacer desde el Panel de Control → Sistema y Seguridad → Sistema → Configuración avanzada del sistema → Variables de entorno.
-
-Clonar el repositorio:
-
-Obtén el código fuente clonando el repositorio del proyecto:
-
-•	bash
-•	Copy code
-•	git clone https://github.com/Jevegaa1988/MarisqueriaSalesSystem.git
-•	Navega a la carpeta del proyecto clonado.
-
-¿Cómo ejecutar pruebas manualmente?
-
-Para ejecutar las pruebas unitarias del proyecto manualmente, utiliza Maven desde la línea de comandos en la carpeta del proyecto:
-
-•	bash
-•	Copy code
-•	mvn test
 ¿Cómo implementar la solución en producción en un ambiente local o en la nube como Heroku?
 
 Para implementar Marisqueria Sales System en producción, sigue estos pasos:
