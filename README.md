@@ -2,11 +2,11 @@
 
 Descripción
 
-•	El proyecto Marisquería Sales System es una aplicación diseñada para facilitar el registro y seguimiento de ventas de productos marinos. Permite a los usuarios registrar ventas, ver informes de ventas por fecha y manejar el inventario de manera eficiente.
+•	El proyecto Marisquería Sales System es una aplicación diseñada para facilitar el registro y seguimiento de ventas de productos marinos. Permite a los usuarios registrar ventas, ver informes de ventas por fecha.
 
 Problema Identificado
 
-•	Las marisquerías enfrentan desafíos en la gestión eficiente de inventario y registro de ventas, lo que puede llevar a pérdidas de ingresos y productos no contabilizados.
+•	Las marisquerías enfrentan desafíos en la gestión eficiente de registro de ventas, lo que puede llevar a pérdidas de ingresos y productos no contabilizados.
 
 Solución
 
